@@ -2,13 +2,12 @@ package app.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
-@Component("catBean")
-public class Cat extends Animal {
+@Component("dogBean")
+public class Dog extends Animal {
     @Override
     public String toString() {
-        return "Im a Cat";
+        return "Im a Dog";
     }
 }
